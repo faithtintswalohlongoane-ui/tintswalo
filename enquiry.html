@@ -1,0 +1,49 @@
+<head>
+    <title>Book Appointment</title>
+    <link rel="stylesheet" href="enquiry.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="booking-section">
+    <h1>Book Your Appointment</h1>
+    <p>Welcome to Mbali’s Beauty Salon. Book your beauty session with us!</p>
+   <div class="bottom-nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="enquiry.html">Book Now</a>
+    <a href="contact.html">Contact Us</a>
+</div>
+
+    <form id="bookingForm">
+        <label>Full Name:</label>
+        <input type="text" name="name" placeholder="Enter your full name" required>
+
+        <label>Phone Number:</label>
+        <input type="tel" name="phone" placeholder="Enter your phone number" required>
+
+        <label>Choose a Service:</label>
+        <select name="service" required>
+            <option value="">Select a service</option>
+            <option>Wig Installation</option>
+            <option>Braids</option>
+            <option>Ponytails</option>
+            <option>Haircuts</option>
+            <option>Nail Services</option>
+        </select>
+
+        <label>Appointment Date:</label>
+        <input type="date" name="date" required>
+
+        <label>Appointment Time:</label>
+        <input type="time" name="time" required>
+
+        <label>Additional Message:</label>
+        <textarea name="message" placeholder="Any special requests?"></textarea>
+
+        <button type="submit">Book Now</button>
+    </form>
+
+    <p id="bookingMessage"></p>
+
+<script src="enquiry.css"></script>

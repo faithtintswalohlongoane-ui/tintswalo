@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    body {
+    font-family: Arial, sans-serif;
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: white;
+}
+
+
+/* Salon name */
+.top {
+    background-image: none;
+    color: #e77fa0;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/* Navigation buttons */
+nav {
+    background: none;
+    padding: 15px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+nav a {
+    background: #e77fa0;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #ff6fae;
+    transform: translateY(-3px);
+}
+
+/* Home banner */
+.hero {
+    min-height: 480px;
+    padding: 90px 8%;
+    background: linear-gradient(
+        135deg,
+        none,
+        #102b5c 50%,
+        #087fa9 100%
+    );
+}
+
+.blue {
+    color: #8ed8d8;
+    font-size: 58px;
+    font-weight: 900;
+}
+
+.slogan {
+    color: #c2d6ff;
+    font-family: "Brush Script MT", cursive;
+    font-size: 42px;
+    font-style: italic;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 15px;
+    margin-top: 15px;
+    line-height: 1.8;
+    max-width: 550px;
+}
+
+.location {
+    color: #c2d6ff;
+}
+
+/* WhatsApp booking button */
+.whatsapp {
+    display: inline-block;
+    background: #f3b5df;
+    color: #0b1220;
+    padding: 13px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.whatsapp:hover {
+    background: white;
+    transform: scale(1.05);
+}
+
+/* Welcome section */
+.welcome {
+    text-align: center;
+    padding: 45px 8%;
+    background-image: none;
+}
+
+.welcome h2 {
+    margin-bottom: 15px;
+}
+
+.welcome h2 span {
+    color: #e77fa0;
+}
+
+.welcome p {
+    line-height: 1.8;
+    color: #d7deef;
+}
+
+/* Footer */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+/* Mobile screens */
+@media (max-width: 700px) {
+    .blue {
+        font-size: 42px;
+    }
+
+    .slogan {
+        font-size: 32px;
+    }
+
+    .hero {
+        padding: 65px 6%;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    nav a {
+        padding: 10px 14px;
+    }
+}
+body {
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+footer,
+.footer {
+    background: rgba(6, 18, 46, 0.45) !important;
+    background-color: rgba(6, 18, 46, 0.45) !important;
+}

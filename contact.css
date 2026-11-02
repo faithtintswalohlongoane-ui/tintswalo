@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+
+.top {
+    background: none;
+    color: #e77fa0;
+    text-align: center;
+    padding: 25px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav {
+    background: none;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e77fa0;
+}
+
+.section {
+    max-width: 750px;
+    margin: 40px auto;
+    padding: 25px;
+}
+
+.section h2 {
+    color: #e77fa0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.pink-box {
+    background: none;
+    border: 2px solid #e77fa0;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.pink-box h3 {
+    color: #e77fa0;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #e77fa0;
+    border-radius: 7px;
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    margin-top: 20px;
+    background: #e77fa0;
+    color: none;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ffffff;
+}
+
+#contactMessage {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+footer {
+    background: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+.location-section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #06122e;
+    border: 2px solid #e77fa0;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.location-section h2 {
+    color: #e77fa0;
+}
+
+.location-section p {
+    color: white;
+}
+
+.location-section iframe {
+    border-radius: 12px;
+}

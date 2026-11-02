@@ -1,0 +1,14 @@
+body {
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 1000vh;
+}
+/* Make the picture visible behind the website */
+.form-container {
+    background: rgba(5, 15, 40, 0.80);
+    border-radius: 15px;
+    padding: 25px;
+}
